@@ -28,7 +28,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
   if (triggerWords.includes(lowerBody)) {
     return api.sendMessage(
       `🌟━━━━━━━━━━━━━━━━━🌟
-    𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧𝐟𝐨
+                𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐧𝐟𝐨
 🌟━━━━━━━━━━━━━━━━━🌟
 ➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲: 𝐒𝐮𝐤𝐡𝐢 𝐌𝐞𝐰
 ➤ 𝗣𝗿𝗲𝗳𝗶𝘅: [ ${prefix} ]
@@ -39,7 +39,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 ➤ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: https://wa.me/01882333052
 
 🌟━━━━━━━━━━━━━━━━━🌟
-    𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴!
+         𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴!
 🌟━━━━━━━━━━━━━━━━━🌟`,
       threadID,
       messageID
